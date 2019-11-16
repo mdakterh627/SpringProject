@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+<tiles-definitions>  
+ 
+   <!-- Base Define -->
+   <definition name="layout.base.definition" 
+       template="/WEB-INF/jsp/index.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="body" value="" /> 
+   </definition>  
+ 
+   <!-- Home Page -->
+   <definition name="homePage" extends="layout.base.definition">  
+       <put-attribute name="title" value="Home Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />  
+   </definition>
+   
+<definition name="ambulancePage" extends="layout.base.definition">  
+       <put-attribute name="title" value="Ambulance Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/ambulance/ambulance.jsp" />  
+   </definition>
+<definition name="registerPage" extends="layout.base.definition">  
+       <put-attribute name="title" value="Register Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/register.jsp" />  
+   </definition>
+   <definition name="emargencyPage" extends="layout.base.definition">  
+       <put-attribute name="title" value="Emargency Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/emargency.jsp" />  
+   </definition>
+<!--   <definition name="onlineDoctorPage" extends="layout.base.definition">  
+       <put-attribute name="title" value="Doctor Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/onlineDoctor.jsp" />  
+   </definition>-->
+   <definition name="pharmacyPage" extends="layout.base.definition">  
+       <put-attribute name="title" value="Pharmacy Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/pharmacy.jsp" />  
+   </definition>
+   <definition name="bloodPage" extends="layout.base.definition">  
+       <put-attribute name="title" value="Blood Donation Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/blood.jsp" />  
+   </definition>
+   <definition name="searchPage" extends="layout.base.definition">  
+       <put-attribute name="title" value="Search Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/search.jsp" />  
+   </definition>
+   <definition name="aboutPage" extends="layout.base.definition">  
+       <put-attribute name="title" value="About Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/about/about.jsp" />  
+   </definition>
+   <definition name="contactPage" extends="layout.base.definition">  
+       <put-attribute name="title" value="Contact Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/contact/contact.jsp" />  
+   </definition>
+   
+   <definition name="departmentPage" extends="layout.base.definition">  
+       <put-attribute name="title" value="Department Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/department.jsp" />  
+   </definition>
+   
+   <definition name="bookingShow" extends="layout.base.definition">  
+       <put-attribute name="title" value="Contact Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/doctor/bookingShow.jsp" />  
+   </definition>
+   
+
+</tiles-definitions>

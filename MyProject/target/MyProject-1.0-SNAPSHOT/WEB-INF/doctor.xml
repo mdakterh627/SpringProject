@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+<tiles-definitions>  
+   <!-- Base Define -->
+   <definition name="doctor.base.definition" 
+       template="/WEB-INF/jsp/doctor/index.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="body" value="" />  
+   </definition>  
+ 
+   <definition name="doctorPage" extends="doctor.base.definition">  
+       <put-attribute name="title" value="Doctor Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/doctor/doctor.jsp" />  
+   </definition>
+   <definition name="bookingPage" extends="doctor.base.definition">  
+       <put-attribute name="title" value="Booking Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/doctor/booking.jsp" />  
+   </definition>
+   <definition name="bookingShow" extends="doctor.base.definition">  
+       <put-attribute name="title" value="Registration page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/doctor/bookingShow.jsp" />  
+   </definition>
+
+</tiles-definitions>
