@@ -84,7 +84,7 @@
                         <div class="tab-content">
                             <div id="home" class="tab-pane fade in active">
 
-                                <form action="/MainProject/signupSubmit" method="POST">
+                                <form action="/MyProject/signupSubmit" method="POST">
 
                                     <div class="form-group">
                                         <label for="name">Doctor Name</label>
@@ -114,7 +114,7 @@
 
                             <div id="menu1" class="tab-pane fade">
 
-                                <form action="/MainProject/signupSubmit" method="POST">
+                                <form action="/MyProject/signupSubmit" method="POST">
                                     <div class="form-group">
                                         <label for="name">Name:</label>
                                         <input type="text" class="form-control" id="name" name="name">

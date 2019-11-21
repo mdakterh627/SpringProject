@@ -68,7 +68,7 @@
         <div class="row">
             <div class="col-md-4 login-sec">
                 <h2 class="text-center">Login Now</h2>
-                <form class="login-form" action="/MainProject/loginSubmit" method="POST">
+                <form class="login-form" action="/MyProject/loginSubmit" method="POST">
                     <div class="form-group">
                         <label for="exampleInputUsername" class="text-uppercase">User name</label>
                         <input type="text" class="form-control" placeholder="Enter User name" name="username">
@@ -96,7 +96,7 @@
 
                             <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
                                 Don't have an account! 
-                                <a href="/MainProject/signup" >
+                                <a href="/MyProject/signup" >
                                     Sign Up Here
                                 </a>
                             </div>

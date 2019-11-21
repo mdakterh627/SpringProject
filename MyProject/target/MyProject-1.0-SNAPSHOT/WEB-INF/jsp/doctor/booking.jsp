@@ -4,7 +4,7 @@
             <div class="col-md-6 col-lg-5 offset-lg-7 offset-md-6">
                 <div class="appoint_ment_form">
                     <h4>Book an Appointment</h4>
-                    <form action="/MainProject/bookingSubmit" method="POST">
+                    <form action="/MyProject/bookingSubmit" method="POST">
                         <div class="form-group">
                             <label for="name">Patient Name:</label>
                             <input type="text" class="form-control" id="name" name="name">

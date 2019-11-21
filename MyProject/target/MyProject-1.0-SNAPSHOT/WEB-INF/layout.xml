@@ -23,7 +23,7 @@
    </definition>
 <definition name="registerPage" extends="layout.base.definition">  
        <put-attribute name="title" value="Register Page" />  
-       <put-attribute name="body" value="/WEB-INF/jsp/register.jsp" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/healthCard/register.jsp" />  
    </definition>
    <definition name="emargencyPage" extends="layout.base.definition">  
        <put-attribute name="title" value="Emargency Page" />  
@@ -39,7 +39,7 @@
    </definition>
    <definition name="bloodPage" extends="layout.base.definition">  
        <put-attribute name="title" value="Blood Donation Page" />  
-       <put-attribute name="body" value="/WEB-INF/jsp/blood.jsp" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/blood/blood.jsp" />  
    </definition>
    <definition name="searchPage" extends="layout.base.definition">  
        <put-attribute name="title" value="Search Page" />  
@@ -59,9 +59,9 @@
        <put-attribute name="body" value="/WEB-INF/jsp/department.jsp" />  
    </definition>
    
-   <definition name="bookingShow" extends="layout.base.definition">  
-       <put-attribute name="title" value="Contact Page" />  
-       <put-attribute name="body" value="/WEB-INF/jsp/doctor/bookingShow.jsp" />  
+   <definition name="registerShow" extends="layout.base.definition">  
+       <put-attribute name="title" value="Registation Page" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/healthCard/registerShow.jsp" />  
    </definition>
    
 

@@ -31,20 +31,24 @@ public class homeController {
     public String ambulanceGet() {
         return "ambulancePage";
     }
-    @RequestMapping(method = RequestMethod.GET, value = "/register")
-    public String registerGet() {
-        return "registerPage";
-    }
+//    @RequestMapping(method = RequestMethod.GET, value = "/register")
+//    public String registerGet() {
+//        return "registerPage";
+//    }
+//    @RequestMapping(method = RequestMethod.GET, value = "/registerShow")
+//    public String registerShowGet() {
+//        return "registerShow";
+//    }
 
     @RequestMapping(method = RequestMethod.GET, value = "/emargency")
     public String emargencyGet() {
         return "emargencyPage";
     }
 
-    @RequestMapping(method = RequestMethod.GET, value = "/onlineDoctor")
-    public String onlineDoctorGet() {
-        return "onlineDoctorPage";
-    }
+//    @RequestMapping(method = RequestMethod.GET, value = "/onlineDoctor")
+//    public String onlineDoctorGet() {
+//        return "onlineDoctorPage";
+//    }
 
     @RequestMapping(method = RequestMethod.GET, value = "/pharmacy")
     public String pharmacyGet() {
